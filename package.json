@@ -1,0 +1,39 @@
+{
+  "name": "elgato-stream-deck-clean-xl",
+  "version": "1.0.0",
+  "description": "An npm module for interfacing with the Elgato Stream Deck XL. Without image library dependencies. (clean)",
+  "main": "index.js",
+  "dependencies": {
+    "jpeg-turbo": "^0.4.0",
+    "node-hid": "^0.7.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfocus/node-elgato-stream-deck-clean-xl.git"
+  },
+  "keywords": [
+    "elgato",
+    "stream",
+    "deck",
+    "streamdeck",
+    "xl",
+    "hid",
+    "usb",
+    "hardware",
+    "interface",
+    "controller"
+  ],
+  "author": {
+    "name": "Håkon Nessjøen",
+    "email": "haakon.nessjoen@gmail.com"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitfocus/node-elgato-stream-deck-clean-xl/issues"
+  },
+  "homepage": "https://github.com/bitfocus/node-elgato-stream-deck-clean-xl/#readme",
+  "engines": {
+    "node": ">=7.6"
+  }
+}
