@@ -6,7 +6,7 @@ const fs = require('fs');
 
 // Packages
 const HID = require('node-hid');
-var jpg = require('tjpeg')
+var jpg = require('jpeg-turbo')
 
 const NUM_KEYS = 32;
 const HID_PACKET_SIZE = 1024;
