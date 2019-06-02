@@ -6,7 +6,7 @@ const fs = require('fs');
 
 // Packages
 const HID = require('node-hid');
-var jpg = require('jpeg-turbo')
+var jpg = require('@julusian/jpeg-turbo')
 
 const NUM_KEYS = 32;
 const HID_PACKET_SIZE = 1024;
@@ -83,7 +83,7 @@ class StreamDeck extends EventEmitter {
 				return device.vendorId === 0x0fd9 && device.productId === 0x006c;
 			});
 			if (!connectedStreamDecks.length) {
-				throw new Error('No Stream Deck Minis are connected.');
+				throw new Error('No Stream Deck XLs are connected.');
 			}
 			this.device = new HID.HID(connectedStreamDecks[0].path);
 		} else {

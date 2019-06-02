@@ -1,10 +1,10 @@
 {
   "name": "elgato-stream-deck-clean-xl",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "An npm module for interfacing with the Elgato Stream Deck XL. Without image library dependencies. (clean)",
   "main": "index.js",
   "dependencies": {
-    "jpeg-turbo": "^0.4.0",
+    "@julusian/jpeg-turbo": "github:Julusian/node-jpeg-turbo#feat/cmake",
     "node-hid": "^0.7.8"
   },
   "repository": {
