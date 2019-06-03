@@ -1,6 +1,6 @@
 {
   "name": "elgato-stream-deck-clean-xl",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "An npm module for interfacing with the Elgato Stream Deck XL. Without image library dependencies. (clean)",
   "main": "index.js",
   "dependencies": {
