@@ -6,7 +6,7 @@ const fs = require('fs');
 
 // Packages
 const HID = require('node-hid');
-var jpg = require('@julusian/jpeg-turbo')
+const jpg = require('@julusian/jpeg-turbo')
 
 const NUM_KEYS = 32;
 const HID_PACKET_SIZE = 1024;
@@ -20,6 +20,8 @@ const jpeg_options = {
 	quality: 95,
 	subsampling: jpg.SAMP_420
 };
+
+HID.setDriverType('libusb');
 
 class StreamDeck extends EventEmitter {
 	/**
